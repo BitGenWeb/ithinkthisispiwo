@@ -9,4 +9,5 @@ dependencies = [
     "psutil>=7.0.0",
     "pyside6>=6.8.2.1",
     "requests>=2.32.3",
+    "flask>=2.3.2",
 ]
