@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# client/server files
+/client/launcher_config.json
+/client/log.log
+/server/server_builds/
+/server/server.log
+/server/server.db
+/client/instances/
