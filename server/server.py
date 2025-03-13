@@ -232,4 +232,5 @@ if __name__ == "__main__":
     init_db()
     populate_test_data()
     logger.info("Server starting on 0.0.0.0:5000")
-    app.run(host="0.0.0.0", port=5000, debug=False)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
